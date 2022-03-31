@@ -1,0 +1,14 @@
+    # sort_A = str(sort_A)
+    
+    # string_A = ""
+    
+    # for i in sort_A:
+    #     string_A += i
+
+    # unwanted_chars = "[,]"
+
+    # for char in unwanted_chars:
+    #     string_A = string_A.replace(char, "")
+
+
+    # for i in sort_A:
