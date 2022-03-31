@@ -1,0 +1,7 @@
+Practice with math import
+
+floor function
+
+n_round_tenth = round(N*0.1, 1)
+
+n_round_tenth = m.floor(n_round_tenth)
