@@ -6,9 +6,9 @@ def customSort(N, A):
 
         if (N[i] % 2 == 0):
 
-        result = "test"
+        
 
-
+            result = "test"
     return result
 
 
