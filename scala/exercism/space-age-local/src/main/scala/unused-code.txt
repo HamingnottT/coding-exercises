@@ -2,3 +2,8 @@ truncated to shorten function
 
 // val daysToSeconds = (pow(60,2)) * 24
 // val secondsInYear = daysInYear * daysToSeconds
+
+    // format the result to return rounded double
+    // val solution = "%.2f".format(seconds/secondsInYear).toDouble
+
+    val solution = seconds/secondsInYear
