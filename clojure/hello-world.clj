@@ -1,5 +1,5 @@
 ; example function that prints hello world
-(defn hello-world []
+(defn -main [& args]
     (print "Hello, world!"))
 
 (+ 3 2) ; simple addition
