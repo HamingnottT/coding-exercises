@@ -1,0 +1,11 @@
+//Scala resources
+
+object Main {
+  def <function>(...) : Unit = {
+    <code>
+  }
+
+  def main(args:Array[String]) : Unit = {
+    <code>
+  }
+}
