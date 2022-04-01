@@ -1,0 +1,4 @@
+truncated to shorten function
+
+// val daysToSeconds = (pow(60,2)) * 24
+// val secondsInYear = daysInYear * daysToSeconds

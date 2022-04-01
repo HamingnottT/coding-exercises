@@ -128,5 +128,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# VSCode & metals
+.vscode
+.metals
+
+# IntelliJ
+.bsp
+.idea
+
 HELP.md
 language-boilerplate.md
