@@ -6,3 +6,4 @@ Scala 2.13.8
 
 SBT: 1.6.4
 
+VSCode & IntelliJ both utilized as IDE
