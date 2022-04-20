@@ -11,10 +11,13 @@ def mergedArray(N,A,B):
     return result
 
 #INPUT [uncomment & modify if required]
+# number of integers in list
 N=int(input())
+# list generation
 A=[]
 B=[]
 
+# temp is a string of integers which is then split into lists A and B respectively
 temp=input().split()
 for i in range(N):
     A.append(int(temp[i]))    
