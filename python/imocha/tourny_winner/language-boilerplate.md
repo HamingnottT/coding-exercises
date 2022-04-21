@@ -1,0 +1,78 @@
+# Python
+
+def tournamentWinner(N):
+    # this is default OUTPUT. You can change it.
+    result = -404
+
+    # write your Logic here:
+
+    return result
+
+
+# INPUT [uncomment & modify if required]
+N = int(input())
+
+# OUTPUT [uncomment & modify if required]
+print(tournamentWinner(N))
+
+# Scala
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def tournamentWinner(N: Int): Int={
+        //this is default OUTPUT. You can change it.
+        var result = -404
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var N: Int = scala.io.StdIn.readLine.toInt
+		
+
+        // OUTPUT [uncomment & modify if required]
+        println(tournamentWinner(N))
+
+    }
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main
+{
+  public static int tournamentWinner(int N)
+  {
+
+    //this is default OUTPUT. You can change it.
+    int result = -404;
+
+    //write your Logic here:
+
+
+      return result;
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+
+    //INPUT [uncomment & modify if required]
+    int N = sc.nextInt ();
+
+    sc.close ();
+
+    //OUTPUT [uncomment & modify if required]
+    System.out.print(tournamentWinner(N));
+  }
+}

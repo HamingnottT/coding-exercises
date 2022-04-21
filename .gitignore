@@ -136,6 +136,6 @@ dmypy.json
 .bsp
 .idea
 
-HELP.md
+# HELP.md
 nREADME.md
-language-boilerplate.md
+# language-boilerplate.md
