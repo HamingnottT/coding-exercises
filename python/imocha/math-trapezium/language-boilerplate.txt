@@ -1,0 +1,69 @@
+~~~ Python ~~~
+
+def areaOfTrapezium(px,qx,rx):
+    #this is default OUTPUT. You can change it.
+    result=-404.00
+    #WRITE YOUR LOGIC HERE:
+    
+    
+    print("{:.2f}".format(result))
+
+#INPUT [uncomment & modify if required]
+temp=input().split()
+
+px=int(temp[0])
+qx=int(temp[1])
+rx=int(temp[2])
+#OUTPUT [uncomment & modify if required]
+areaOfTrapezium(px,qx,rx)
+
+~~~ Scala ~~~
+
+object Solution extends App  { 
+  def logicFuncn(X: Int): Int = {
+    val result: Int = -404
+    //write your LOGIC here:
+    
+    
+    return result
+  }
+
+
+//INPUT [uncomment & modify if required]
+    var Y: Int = scala.io.StdIn.readInt()
+    
+// OUTPUT [uncomment & modify if required]
+    System.out.print(logicFuncn(Y))
+}
+
+~~~ Java ~~~
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+ 
+public class Main
+{
+    public static float areaOfTrapezium(int px,int qx, int rx){
+        //this is default OUTPUT. You can change it.
+        float result = -404;
+        //WRITE YOUR LOGIC HERE:
+
+
+        return result;
+    }
+    public static void main (String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+            
+        //INPUT [uncomment & modify if required]
+        int px=sc.nextInt();
+        int qx=sc.nextInt();
+        int rx=sc.nextInt();
+        
+        sc.close();
+
+        //OUTPUT [uncomment & modify if required]
+        System.out.printf("%.2f",areaOfTrapezium(px,qx,rx));
+    }
+}
