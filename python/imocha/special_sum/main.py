@@ -27,9 +27,13 @@ def SpecialSum(N, Arr, K):
     pass
 
 def main():
-    N = 14
-    Arr = "1 5 9 7 8 6 4 3 2 1 0 5 8 7"
-    K = 5
+    # N = 14
+    # Arr = "1 5 9 7 8 6 4 3 2 1 0 5 8 7"
+    # K = 5
+
+    N = 13
+    Arr = "27 49 27 36 11 40 33 33 47 17 2 23 31"
+    K = 4
 
     SpecialSum(N, Arr, K)
 
