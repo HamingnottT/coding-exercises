@@ -1,0 +1,78 @@
+# Python
+
+def tripsRequired(N,K,A):
+    
+    #this is default OUTPUT. You can change it.
+    result=-404
+    
+    #write your Logic here:
+    
+
+    return result
+
+#INPUT [uncomment & modify if required]
+N=int(input())
+K=int(input())
+A=[]
+
+for i in range(N):
+    A.append(int(input()))
+    
+#OUTPUT [uncomment & modify if required]
+print(tripsRequired(N,K,A))
+
+# Scala
+
+object Solution extends App  { 
+  def logicFuncn(X: Int): Int = {
+    val result: Int = -404
+    //write your LOGIC here:
+    
+    
+    return result
+  }
+
+
+//INPUT [uncomment & modify if required]
+    var Y: Int = scala.io.StdIn.readInt()
+    
+// OUTPUT [uncomment & modify if required]
+    System.out.print(logicFuncn(Y))
+}
+
+# Java
+
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static int tripsRequired(int N,int K,int[] A) {
+        
+        //this is default OUTPUT. You can change it.
+        int result = -404;
+        
+        //write your Logic here:
+
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        //INPUT [uncomment & modify if required]
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int[] A = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            A[i] = sc.nextInt();
+        }
+
+        sc.close();
+
+        //OUTPUT [uncomment & modify if required]
+        System.out.print(tripsRequired(N,K,A));
+    }
+}

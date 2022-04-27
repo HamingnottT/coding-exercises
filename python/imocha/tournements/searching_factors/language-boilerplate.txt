@@ -1,0 +1,79 @@
+# Python
+
+def searchFactors(N,A):
+    #this is default OUTPUT. You can change it
+    result = -404
+    
+    # WRITE YOUR LOGIC HERE:    
+
+
+    print(result)
+    for i in A:
+        print(i,end=" ")
+        
+#INPUT [uncomment & modify if required]
+temp = input().split()
+
+N = int(temp[0])
+A = []
+temp1 = input().split()
+for i in range(N):
+    A.append(int(temp1[i]))
+
+#OUTPUT [uncomment & modify if required]
+searchFactors(N,A)
+
+# Scala
+
+object Solution extends App  { 
+  def logicFuncn(X: Int): Int = {
+    val result: Int = -404
+    //write your LOGIC here:
+    
+    
+    return result
+  }
+
+
+//INPUT [uncomment & modify if required]
+    var Y: Int = scala.io.StdIn.readInt()
+    
+// OUTPUT [uncomment & modify if required]
+    System.out.print(logicFuncn(Y))
+}
+
+# Java
+
+import java.util.*; 
+import java.lang.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main {
+    public static void searchFactors(int N, int A[]) {
+        //this is default OUTPUT. You can change it
+        int result=-404;
+        
+        //WRITE YOUR LOGIC HERE:
+                
+                
+        System.out.println(result);
+        for(int i=0;i<N;i++){
+            System.out.print(A[i]+" ");
+        }
+    }
+    public static void main(String[] args) {
+        // INPUT [uncomment & modify if required]
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+                
+        int A [] = new int[N];
+        for(int i=0; i<N; i++) {
+            A[i] = sc.nextInt();
+        }
+                
+        // OUTPUT [uncomment & modify if required]
+        searchFactors(N,A);
+        sc.close();
+    }
+}

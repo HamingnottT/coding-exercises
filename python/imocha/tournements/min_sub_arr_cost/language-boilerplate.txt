@@ -1,0 +1,69 @@
+# Python
+
+def minimumCost(N,M,A):
+    #this is default OUTPUT. You can change it.
+    result = -404
+    
+    #WRITE YOUR LOGIC HERE:
+    
+    
+    print(result)
+
+#INPUT [uncomment & modify if required]
+temp = input().split()
+
+N = int(temp[0])
+M = int(temp[1])
+A = list(map(int,input().split()))
+
+#OUTPUT [uncomment & modify if required]
+minimumCost(N,M,A)
+
+# Scala
+
+object Solution extends App {
+	//INPUT [uncomment & modify if required]
+	var sampleInput = scala.io.StdIn.readLine();
+	
+	//this is default OUTPUT. You can change it.
+	var result = -404;
+	
+	//write your Logic here:
+
+	//OUTPUT [uncomment & modify if required]
+	System.out.println(result);
+	
+}
+
+# Java
+
+import java.util.*; 
+import java.lang.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main {
+    public static int minimumCost(int N, int M, int A[]) {
+        //this is default OUTPUT. You can change it.
+        int result=-404;
+        
+        //WRITE YOUR LOGIC HERE:
+        
+        
+        return result;
+    }
+    public static void main(String[] args) {
+        // INPUT [uncomment & modify if required]
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int A [] = new int[N];
+        for(int i=0; i<N; i++) {
+                        A[i] = sc.nextInt();
+        }
+        
+        // OUTPUT [uncomment & modify if required]
+        System.out.print(minimumCost(N, M, A));
+        sc.close();
+    }
+}
