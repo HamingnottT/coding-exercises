@@ -1,5 +1,3 @@
-from cgi import test
-
 
 def test1(N, S):
     S_to_list = []
