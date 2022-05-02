@@ -1,6 +1,7 @@
+# rough draft of main.py pre-submission
+
 def last_sum(N, A):
     A_to_stringlist = []
-    A_last_digits = []
 
     for i in A:
         A_to_stringlist.append(str(i))

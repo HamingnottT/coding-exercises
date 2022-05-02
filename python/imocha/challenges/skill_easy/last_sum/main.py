@@ -1,3 +1,6 @@
+# this one passed 100%
+# review as needed
+
 def lastSum(N, A):
     A_to_stringlist = []
 
@@ -6,14 +9,14 @@ def lastSum(N, A):
     for i in A:
         A_to_stringlist.append(str(i))
 
-    def lastSumHelper(N, A, Accum):
+    def lastSumHelper(N, stringList, Accum):
         if (N == 0): print(Accum)
         
         # recursively calls through stringlist
         # accumulator stores the last digit of each list index by converting the digit back to int type
-        else: lastSumHelper(N - 1, A, int((A[N - 1])[-1]) + Accum)
+        else: lastSumHelper(N - 1, stringList, int((stringList[N - 1])[-1]) + Accum)
 
-    lastSumHelper(N, A_to_stringlist, 0)
+    return lastSumHelper(N, A_to_stringlist, 0)
    
 
 
