@@ -1,5 +1,6 @@
 # alternative way of expressing lastSum's recursion
 # this is closer to the predefined boilerplate with now a recursive function called to convert A to a string list
+# IMPORTANT: prevent auxillary recursive functions from returning NoneType by calling 'return' at the end of each function
 
 def lastSum(N, A):
     A_to_stringlist = []
