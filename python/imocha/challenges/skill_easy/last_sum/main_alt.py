@@ -7,7 +7,10 @@ def lastSum(N, A):
     # recursive call to convert A to a string list
     # integers cannot normally be iterated through
     def AToStringlist(N, A_input, Accum):
-        if (N == 0): return Accum.split()
+        if (N == 0): return Accum.split()   # splits the concatenated string into a list
+        
+        # recursively calls through conversion function
+        # accumulator converts each index of A to string, then concatenates each string index into one single merged string - the space delimits each number
         else: return AToStringlist(N - 1, A_input, str(A_input[N-1]) + " " + Accum)
 
     A_to_stringlist = AToStringlist(N, A, "")
