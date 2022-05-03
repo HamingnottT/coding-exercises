@@ -2,7 +2,8 @@
 
 def carArrangement(N, A):
     
-    # partial correct but baseline for next attempt
+    # partial correct from before but baseline for this attempt
+    # the result was printed backwards
     def test1(N, A):
         mod_res = ""
         mod_counter_0 = 0
