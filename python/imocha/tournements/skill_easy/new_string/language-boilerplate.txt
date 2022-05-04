@@ -1,0 +1,78 @@
+# Python
+
+def newString(S):
+    # this is default OUTPUT. You can change it.
+    result = -404
+
+    # write your Logic here:
+
+    return result
+
+
+# INPUT [uncomment & modify if required]
+S = input()
+
+# OUTPUT [uncomment & modify if required]
+print(newString(S))
+
+# Scala
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def newString(S: String): String={
+        //this is default OUTPUT. You can change it.
+        var result = "-404"
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var S: String = scala.io.StdIn.readLine.toString
+		
+
+        // OUTPUT [uncomment & modify if required]
+        println(newString(S))
+
+    }
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main
+{
+  public static int newString(String S)
+  {
+
+    //this is default OUTPUT. You can change it.
+    int result = -404;
+
+    //write your Logic here:
+
+
+      return result;
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+
+    //INPUT [uncomment & modify if required]
+    String S = sc.next();
+
+    sc.close ();
+
+    //OUTPUT [uncomment & modify if required]
+    System.out.print(newString(S));
+  }
+}

@@ -1,0 +1,66 @@
+# Python
+
+def OrderOfFrequenceies(S):
+        
+        #this is default OUTPUT. You can change it.
+        result=str("")
+        
+        #write your Logic here:
+        
+
+        return result
+
+#INPUT [uncomment & modify if required]
+S=input()
+
+#OUTPUT [uncomment & modify if required]
+print(OrderOfFrequenceies(S))
+
+# Scala
+
+object Solution extends App  { 
+  def logicFuncn(X: Int): Int = {
+    val result: Int = -404
+    //write your LOGIC here:
+    
+    
+    return result
+  }
+
+
+//INPUT [uncomment & modify if required]
+    var Y: Int = scala.io.StdIn.readInt()
+    
+// OUTPUT [uncomment & modify if required]
+    System.out.print(logicFuncn(Y))
+}
+
+# Java
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+	public static String OrderOfFrequencies(String S) {
+		
+		//this is default OUTPUT. You can change it.
+		String result=" ";
+	
+		//write your Logic here:
+		
+		
+		return result;
+	}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		// INPUT [uncomment & modify if required]
+		String S=sc.nextLine();
+		
+		// OUTPUT [uncomment & modify if required]
+		System.out.print(OrderOfFrequencies(S));
+		sc.close();
+	}
+
+}
