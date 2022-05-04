@@ -1,0 +1,107 @@
+~~~ Python ~~~
+
+def fertileSector(N,A):
+    
+    #this is default OUTPUT. You can change it.
+    result=-404
+        
+    #Write your Logic here:
+    
+
+    return result
+
+#INPUT [uncomment & modify if required]
+N=int(input())
+
+
+A=[[0 for j in range(N)] for i in range(N)]
+temp=[]
+
+for i in range(N):
+        temp=input().split()
+        for j in range(N):
+                A[i][j]=temp[j]
+                
+#OUTPUT [uncomment & modify if required]
+print(fertileSector(N,A))
+
+~~~ Scala ~~~
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def fertileSector(N: Int,A: Array[Array[Int]]): Int={
+        //this is default OUTPUT. You can change it.
+        var result = -404
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var N: Int = scala.io.StdIn.readLine.toInt
+		var A= Array.ofDim[Int](N,N)
+		for( i <- 0 to N-1){
+			for( j <- 0 to N-1){
+				A(i)(j) = scala.io.StdIn.readLine.toInt
+			}
+		}
+		
+
+        // OUTPUT [uncomment & modify if required]
+        println(fertileSector(N,A))
+
+    }
+}
+
+~~~ Java ~~~
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+	public static int fertileSector(int N,int[][] A)
+    {
+            //this is default OUTPUT. You can change it.
+            int result=-404;
+      
+            //write your Logic here:
+
+
+            return result;
+    }
+
+    public static void main(String[] args)
+    {
+            //INPUT [uncomment & modify if required]
+            int N;
+            Scanner sc=new Scanner(System.in);
+            
+            N=sc.nextInt();
+       
+                            
+            int[][] A=new int[N][N];
+            
+            for(int i=0;i<N;i++)
+            {
+                    for(int j=0;j<N;j++)
+                    {
+                            A[i][j]=sc.nextInt();
+                    }
+            }
+                    
+                    
+            sc.close();
+    
+            // OUTPUT [uncomment & modify if required]
+            System.out.print(fertileSector(N,A));
+
+    }
+}
