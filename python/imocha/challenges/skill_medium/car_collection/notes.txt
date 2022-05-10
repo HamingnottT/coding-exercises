@@ -1,0 +1,14 @@
+Input variables:
+
+N - number of showrooms
+Xi - array of price of cars from i to N
+K - number of months of georges plan
+Mi - coins available in a given month
+
+plan:
+
+iterate through Array Mi to find the number of showrooms he can purchase a car from.
+
+how many depends on whether each Xi value is less than or equal to Mi value.
+any greater than value is disregarded as george does not have enough coin for that car price
+
