@@ -1,7 +1,7 @@
 # Recursion: Last Sum
 
 Given N numbers, print the sum of the last digits of all the numbers using recursion.
-Since the sum can be very large, print its modulo 109 + 7.  
+Since the sum can be very large, print its modulo 10(power 9) + 7.  
 
 # Function Description 
 In the provided code snippet, implement the provided lastSum(...) method to print the sum of the last digits of all numbers. You can write your code in the space below the phrase “WRITE YOUR LOGIC HERE”.
