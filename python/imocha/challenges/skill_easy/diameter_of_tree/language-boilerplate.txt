@@ -1,0 +1,86 @@
+~~~ Python ~~~
+
+def diameter(N,A):
+    
+    #this is default OUTPUT. You can change it.
+    result=-404
+        
+    #Write your Logic here:
+    
+
+    return result
+
+#INPUT [uncomment & modify if required]
+N=int(input())
+
+A=[[0 for j in range(2)] for i in range(N-1)]
+temp=[]
+
+for i in range(N-1):
+        temp=input().split()
+        for j in range(2):
+                A[i][j]=temp[j]
+
+print(diameter(N,A))
+
+~~~ Scala ~~~
+
+object Solution extends App  { 
+  def logicFuncn(X: Int): Int = {
+    val result: Int = -404
+    //write your LOGIC here:
+    
+    
+    return result
+  }
+
+
+//INPUT [uncomment & modify if required]
+    var Y: Int = scala.io.StdIn.readInt()
+    
+// OUTPUT [uncomment & modify if required]
+    System.out.print(logicFuncn(Y))
+}
+
+~~~ Java ~~~
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.lang.Math;
+ 
+public class Main
+{
+    public static int diameter(int N,int coordinates[][]){
+        
+        //this is default OUTPUT. You can change it.
+        int result =-404;
+        
+        //write your Logic here:
+
+        
+        return result;
+    }
+
+    public static void main (String[] args)
+    {
+            Scanner sc=new Scanner(System.in);
+            
+            //INPUT [uncomment & modify if required]
+            int N=sc.nextInt();
+            int M=2;
+
+            int[][] coordinates=new int[N-1][2];
+
+            for(int i=0;i<N-1;i++){
+                for(int j=0;j<2;j++){
+                    coordinates[i][j]=sc.nextInt();
+                }
+            }
+
+            sc.close();
+
+            //OUTPUT [uncomment & modify if required]
+            System.out.println(diameter(N,coordinates));
+    }
+}
