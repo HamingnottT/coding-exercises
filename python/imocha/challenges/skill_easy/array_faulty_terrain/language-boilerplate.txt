@@ -1,0 +1,79 @@
+~~~ Python ~~~
+
+def removeCoach(n, k, a):
+        
+        #this is default OUTPUT. You can change it.
+    result=-404
+        
+        #write your Logic here:
+
+    return result
+
+    #INPUT [uncomment & modify if required]
+
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
+print(removeCoach(n, k, a))
+
+~~~ Scala ~~~
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def removeCoach(N: Int,K: Int,S: Array[Int]): Int={
+        //this is default OUTPUT. You can change it.
+        var result = -404
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var N: Int = scala.io.StdIn.readLine.toInt
+		var K: Int = scala.io.StdIn.readLine.toInt
+		var S: Array[Int] = readLine.split(" ").map(_.toInt)
+		
+
+        // OUTPUT [uncomment & modify if required]
+        println(removeCoach(N,K,S))
+
+    }
+}
+
+~~~ Java ~~~
+
+import java.util.*;
+ 
+public class Main
+{
+    public static int removeCoach(int n, int k, int a[]) {
+        
+        //this is default OUTPUT. You can change it.
+        int result = -404;
+
+        //write your Logic here:
+
+        return result;
+    }
+    public static void main (String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        
+        //INPUT [uncomment & modify if required]
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int a[] = new int[n];
+        for(int i = 0; i < n; i++)
+        {
+            a[i] = sc.nextInt();
+        }
+        System.out.println(removeCoach(n, k, a));
+        sc.close();
+    }
+}
