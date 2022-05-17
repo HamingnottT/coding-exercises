@@ -1,0 +1,106 @@
+# Python
+
+def colorPen(N, Q, A, queries):
+    # this is default OUTPUT. You can change it.
+    result = -404
+
+    # write your Logic here:
+
+    return result
+
+
+# INPUT [uncomment & modify if required]
+N, Q = input().split()
+N = int(N)
+Q = int(Q)
+
+temp = input().split()
+A = []
+for i in range(N):
+    A.append(int(temp[i]))
+
+temp_1 = input().split()
+queries = []
+for i in range(Q):
+    queries.append(int(temp_1[i]))
+
+# OUTPUT [uncomment & modify if required]
+print(colorPen(N, Q, A, queries))
+
+# Scala
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def colorPen(N: Int,Q: Int,A: Array[Int],queries: Array[Int]): Int={
+        //this is default OUTPUT. You can change it.
+        var result = -404
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var N: Int = scala.io.StdIn.readLine.toInt
+		var Q: Int = scala.io.StdIn.readLine.toInt
+		var A: Array[Int]=readLine.split("\n").map(_.toInt)
+	var queries: Array[Int]=readLine.split("\n").map(_.toInt)
+	
+
+        // OUTPUT [uncomment & modify if required]
+        println(colorPen(N,Q,A,queries))
+
+    }
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main
+{
+  public static int colorPen(int N,int Q,int[] A, int[] queries)
+  {
+
+    //this is default OUTPUT. You can change it.
+    int result = -404;
+
+    //write your Logic here:
+
+
+      return result;
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+
+    //INPUT [uncomment & modify if required]
+    int N = sc.nextInt ();
+    int Q = sc.nextInt ();
+
+    int[] A = new int[N];
+    for (int i = 0; i < N; i++)
+    {
+        A[i] = sc.nextInt ();
+    }
+    
+    int[] queries = new int[Q];
+    for (int i = 0; i < Q; i++)
+    {
+        queries[i] = sc.nextInt ();
+    }
+    
+    sc.close ();
+
+    //OUTPUT [uncomment & modify if required]
+    System.out.print(colorPen(N,Q,A,queries));
+  }
+}
