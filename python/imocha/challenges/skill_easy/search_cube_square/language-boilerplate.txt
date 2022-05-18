@@ -1,0 +1,83 @@
+# Python
+
+def cubeSquare(T,N):
+    #this is default OUTPUT. You can change it.
+    result = -404
+    #write your Logic here:
+
+
+    return result
+
+#INPUT [uncomment & modify if required]
+T = int(input())
+N = []
+for i in range(T):
+	N.append(int(input[i]))
+
+        
+#OUTPUT [uncomment & modify if required]
+print(cubeSquare(T,N))
+
+# Scala
+
+import java.io._
+import scala.util.control.Breaks._
+import scala.collection.immutable.Vector._
+
+object Main{
+    def cubeSquare(T: Int,N: Array[Int]): Int={
+        //this is default OUTPUT. You can change it.
+        var result = -404
+        //write your Logic here:
+
+
+
+        return result
+    }
+
+    def main(args: Array[String])
+    {
+        //INPUT [uncomment & modify if required]
+        var T: Int = scala.io.StdIn.readLine.toInt
+		var N: Array[Int]=readLine.split(" ").map(_.toInt)
+		
+
+        // OUTPUT [uncomment & modify if required]
+        println(cubeSquare(T,N))
+
+    }
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main{
+    public static int cubeSquare(int T,int[] N){
+        //this is default OUTPUT. You can change it.
+        int result = -404;
+
+        //write your Logic here:
+
+
+        return result;
+    }
+
+    public static void main (String[]args){
+        Scanner sc = new Scanner(System.in);
+
+        // INPUT [uncomment & modify if required]
+		int T = sc.nextInt();
+		int[] N = new int[T];
+		for (int i = 0; i < T; i++){
+		N[i] = sc.nextInt();
+		}
+		
+
+        sc.close();
+
+        System.out.print(cubeSquare(T,N));
+    }
+}
