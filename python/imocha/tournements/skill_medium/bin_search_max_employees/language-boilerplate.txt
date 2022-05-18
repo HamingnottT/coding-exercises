@@ -1,0 +1,81 @@
+# Python
+
+def maximumNumberOfParticipants(N, A, B, C):
+    # this is default OUTPUT. You can change it.
+    result = -404
+
+    # write your Logic here:
+
+    return result
+
+
+# INPUT [uncomment & modify if required]
+N = int(input())
+
+A = []
+B = []
+C = []
+for i in range(N):
+    a, b, c = input().split()
+    A.append(int(a))
+    B.append(int(b))
+    C.append(int(c))
+
+# OUTPUT [uncomment & modify if required]
+print(maximumNumberOfParticipants(N, A, B, C))
+
+# Scala
+
+object Solution extends App {
+	//INPUT [uncomment & modify if required]
+	var sampleInput = scala.io.StdIn.readLine();
+	var result = -404;
+	//write your Logic here:
+
+	//OUTPUT [uncomment & modify if required]
+	System.out.println(result);
+	
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main
+{
+  public static int maximumNumberOfParticipants(int N,int[] A,int[] B,int[] C)
+  {
+
+    //this is default OUTPUT. You can change it.
+    int result = -404;
+
+    //write your Logic here:
+
+
+    return result;
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+
+    //INPUT [uncomment & modify if required]
+    int N = sc.nextInt ();
+    
+    int A[] = new int[N];
+    int B[] = new int[N];
+    int C[] = new int[N];
+    for(int i=0;i<N;i++)
+    {
+        A[i] = sc.nextInt(); 
+        B[i] = sc.nextInt();
+        C[i] = sc.nextInt();
+    }
+
+    sc.close ();
+
+    //OUTPUT [uncomment & modify if required]
+    System.out.print(maximumNumberOfParticipants(N,A,B,C));
+  }
+}

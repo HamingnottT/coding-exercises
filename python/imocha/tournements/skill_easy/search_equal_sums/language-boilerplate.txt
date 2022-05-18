@@ -1,0 +1,62 @@
+# Python
+
+def equalSums(S):
+    # this is default OUTPUT. You can change it.
+    result = "-404"
+
+    # write your Logic here:
+
+    return result
+
+
+# INPUT [uncomment & modify if required]
+S = input()
+
+# OUTPUT [uncomment & modify if required]
+print(equalSums(S))
+
+# Scala
+
+object Solution extends App {
+	//INPUT [uncomment & modify if required]
+	var sampleInput = scala.io.StdIn.readLine();
+	var result = -404;
+	//write your Logic here:
+
+	//OUTPUT [uncomment & modify if required]
+	System.out.println(result);
+	
+}
+
+# Java
+
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+public class Main
+{
+  public static String equalSums(String S)
+  {
+
+    //this is default OUTPUT. You can change it.
+    String result = "-404";
+
+    //write your Logic here:
+
+
+      return result;
+  }
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+
+    //INPUT [uncomment & modify if required]
+    String S = sc.next ();
+    
+    sc.close ();
+
+    //OUTPUT [uncomment & modify if required]
+    System.out.print(equalSums(S));
+  }
+}
