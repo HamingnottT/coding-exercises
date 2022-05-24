@@ -131,10 +131,16 @@ dmypy.json
 # VSCode & metals
 .vscode
 .metals
+languages/.vscode
+languages/.metals
 
 # IntelliJ
 .bsp
 .idea
+
+# Leiningen
+languages/.clj-kondo
+languages/.lsp
 
 # HELP.md
 nREADME.md
