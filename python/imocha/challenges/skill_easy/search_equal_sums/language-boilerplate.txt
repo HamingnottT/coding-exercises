@@ -1,0 +1,21 @@
+# Python
+
+def equalSums(S):
+
+    result = -404
+
+    return result
+
+
+
+
+
+# INPUT [uncomment & modify if required]
+
+S = input()
+
+
+
+# OUTPUT [uncomment & modify if required]
+
+print(equalSums(S))

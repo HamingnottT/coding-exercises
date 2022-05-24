@@ -1,3 +1,5 @@
+// working demo using scala
+
 import java.io._
 import scala.util.control.Breaks._
 import scala.collection.immutable.Vector._
@@ -24,7 +26,7 @@ object Main{
         //INPUT [uncomment & modify if required]
         var N: Int = scala.io.StdIn.readLine.toInt
 		var X: Array[Int]=readLine.split("\n").map(_.toInt)
-	var K: Int = scala.io.StdIn.readLine.toInt
+	    var K: Int = scala.io.StdIn.readLine.toInt
 		var M: Array[Int]=readLine.split("\n").map(_.toInt)
 	
 
